@@ -1,0 +1,164 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family:'Lobster', cursive;
+	color:#fffff;
+	background:url(../images/bgg.jpg);
+	background-size: no-repeat;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.wrap{
+	width:95%;
+	margin:0 auto;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header {
+	width:100%;
+	margin: 0 auto;
+	position: relative;
+}
+.header{
+	background:url(../images/bg.jpg);
+	border-bottom: 5px solid #C8C8C8;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.header h1{
+	font-size:3em;
+    color:#347280;
+    padding-bottom:10px;
+}
+  .logo{
+  	text-align:center;
+ }
+.og-grid {
+	list-style: none;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+.og-grid li {
+	display:table;
+	margin:5px auto;
+}
+/**** Details Page *****/
+.content h3{
+	padding:10px 0;
+}	
+.content h3 a{
+	font-size:1.2em;
+    color:#347280;
+    padding-bottom:10px;
+}
+.box1 h3 a:hover{
+	text-decoration:underline;
+	color:#444;
+}
+.box1{	
+    padding:5px 0;
+}
+.blog-img img{
+	padding:3px;
+	background:#FFF;
+	border:1px solid #DDD;
+	border-radius: 25px;
+	margin:5px 0;
+	max-height:50%
+}
+.blog-data{
+   	width:100%;
+}
+.blog-data span a{
+	color:#EB7F1A;
+	font-size:1em;
+}
+.blog-data span a:hover{
+	text-decoration:underline;	
+}
+.blog-data p{
+    font-size:0.8em;
+    line-height:1.8em;
+    color:#6D6B6B;
+    font-family:Verdana, Geneva, 'Lobster', cursive;;
+}
+/*----artical-links---*/
+.artical-links{
+	padding: 10px 0px;
+	border: 1px solid rgba(192, 192, 192, 0.22);
+	border-left: none;
+	margin-top: 5px;
+	border-right: none;
+}
+.artical-links ul li{
+	display:block;
+	line-height:1.8em;
+}
+.artical-links ul li img{
+	vertical-align:middle;
+	padding-right:10px;
+}
+.artical-links ul li a{
+	font: 400 15px/22px Arial;
+	color: #ADADAB;
+	padding-left:10px;
+}
+.artical-links ul li a:hover{
+	color:#797D7E;
+}
+.copy_right{                    
+   padding:10px 0;              
+   text-align:center;           
+   margin-top:25px;             
+   border-top:2px ridge #FFF;   
+ }                              
+  .copy_right p{                
+	font-size:1.6em;          
+	color: #FFF;              
+	line-height:1.6em;           
+ }                              
+  .copy_right p a{              
+	color: #FFF;              
+	font-size:1em;               
+	text-decoration:underline;   
+ }                              
+  .copy_right p a:hover{        
+	color:#FFF;               
+	text-decoration:none;        
+ }                              
